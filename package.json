@@ -1,6 +1,6 @@
 {
   "name": "bjorns-comps-build-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=7.0.0"
