@@ -1,0 +1,17 @@
+{
+  "name": "bjorns-comps",
+  "author": {
+    "name": "Björn Allvin",
+    "email": "npm-test@allvin.se",
+    "url": "https://bjornallvin.github.io/docs/"
+  },
+  "version": "0.1.0",
+  "main": "./index.js",
+  "keywords": [],
+  "homepage": "http://bjornallvin.github.io/docs/",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  }
+}

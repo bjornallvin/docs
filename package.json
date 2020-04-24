@@ -1,10 +1,11 @@
 {
-  "name": "bjorns-comps",
+  "name": "bjorns-comps-build-template",
   "version": "0.1.0",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=7.0.0"
   },
+  "private": true,
   "files": [
     "lib"
   ],
@@ -31,9 +32,10 @@
     "predeploy:docs": "npm run build:docs",
     "deploy:docs": "gh-pages -d build",
     "prebuild:commonjs": "rimraf ./lib",
+    "build:lib": "npm-run-all --parallel build:commonjs build:copy-files",
     "build:commonjs": "NODE_ENV=production babel ./src/components --out-dir ./lib --ignore **/*.spec.js",
     "prepublish": "npm run build:commonjs",
-    "publish": ""
+    "build:copy-files": "node scripts/copyBuildFiles.js "
   },
   "eslintConfig": {
     "extends": "react-app"
