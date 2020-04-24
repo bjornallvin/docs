@@ -1,5 +1,5 @@
 import React from 'react'
-import ProgressBar from "my-components/ProgressBar"
+import ProgressBar from "bjorn-comps/ProgressBar"
 
 export default function Example100Percent() {
     return (

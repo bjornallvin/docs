@@ -1,5 +1,5 @@
 import React from 'react';
-import EyeIcon from 'my-components/EyeIcon'
+import EyeIcon from 'bjorn-comps/EyeIcon'
 
 /** EyeIcon example */
 export default function EyeIconExample() {

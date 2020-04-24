@@ -1,5 +1,5 @@
 import React from 'react';
-import RegistrationForm from 'my-components/RegistrationForm';
+import RegistrationForm from 'bjorn-comps/RegistrationForm';
 
 const ExampleRegistrationForm = () => {
 

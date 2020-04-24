@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from 'my-components/TextInput';
+import TextInput from 'bjorn-comps/TextInput';
 
 /** Optional TextBox */
 export default class ExampleOptional extends React.Component {

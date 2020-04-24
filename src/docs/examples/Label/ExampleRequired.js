@@ -1,5 +1,5 @@
 import React from 'react';
-import Label from 'my-components/Label';
+import Label from 'bjorn-comps/Label';
 
 /** Required label */
 export default function ExampleRequired() {

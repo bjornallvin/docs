@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PasswordInput from 'my-components/PasswordInput';
+import PasswordInput from 'bjorn-comps/PasswordInput';
 
 /** All features enabled */
 const ExampleAllFeatures = (props) => {

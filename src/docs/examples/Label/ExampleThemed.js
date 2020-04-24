@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from "styled-components"
-import Label from 'my-components/Label';
+import Label from 'bjorn-comps/Label';
 
 const blueTheme = {
   mainColor: "blue",
